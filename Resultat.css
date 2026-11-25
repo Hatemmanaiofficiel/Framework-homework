@@ -1,0 +1,13 @@
+.admis {
+  background-color: lightgreen;
+  color: green;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.refuse {
+  background-color: lightcoral;
+  color: red;
+  padding: 20px;
+  border-radius: 10px;
+}

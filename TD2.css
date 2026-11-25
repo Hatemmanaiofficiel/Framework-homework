@@ -1,0 +1,41 @@
+.td2-section {
+  padding: 48px 7%;
+  background-color: #f5f9ff;
+}
+
+.td2-section > h2 {
+  margin: 0 0 28px;
+  color: #123968;
+  font-size: 32px;
+  text-align: center;
+}
+
+.td2-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.td2-exercise {
+  padding: 24px;
+  border: 1px solid #d8e5f3;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.td2-exercise h3 {
+  margin-top: 0;
+  color: #123968;
+}
+
+@media (max-width: 700px) {
+  .td2-section {
+    padding: 36px 5%;
+  }
+
+  .td2-grid {
+    grid-template-columns: 1fr;
+  }
+}
